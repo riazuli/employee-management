@@ -15,7 +15,7 @@ var users = [
       }
     },
     "phone": "1-770-736-8031 x56442",
-    "salary": "32550",
+    "salary": 32550,
     "website": "hildegard.org",
     "img": "https://images.unsplash.com/photo-1485206283729-2ca7d035185e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     "company": {
@@ -40,7 +40,7 @@ var users = [
       }
     },
     "phone": "010-692-6593 x09125",
-    "salary": "78500",
+    "salary": 78500,
     "website": "anastasia.net",
     "img": "https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
     "company": {
@@ -65,7 +65,7 @@ var users = [
       }
     },
     "phone": "1-463-123-4447",
-    "salary": "33000",
+    "salary": 33000,
     "website": "ramiro.info",
     "img": "https://images.unsplash.com/photo-1484186304838-0bf1a8cff81c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     "company": {
@@ -90,7 +90,7 @@ var users = [
       }
     },
     "phone": "493-170-9623 x156",
-    "salary": "27000",
+    "salary": 27000,
     "website": "kale.biz",
     "img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
     "company": {
@@ -108,7 +108,7 @@ var users = [
       "street": "Skiles Walks",
       "suite": "Suite 351",
       "city": "Roscoeview",
-      "zipcode": "33263",
+      "zipcode": 33263,
       "geo": {
         "lat": "-31.8129",
         "lng": "62.5342"
@@ -140,7 +140,7 @@ var users = [
       }
     },
     "phone": "1-477-935-8478 x6430",
-    "salary": "30000",
+    "salary": 30000,
     "website": "ola.org",
     "img": "https://images.unsplash.com/photo-1485893226355-9a1c32a0c81e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
     "company": {
@@ -165,7 +165,7 @@ var users = [
       }
     },
     "phone": "210.067.6132",
-    "salary": "80000",
+    "salary": 80000,
     "website": "elvis.io",
     "img": "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=501&q=80",
     "company": {
@@ -190,7 +190,7 @@ var users = [
       }
     },
     "phone": "586.493.6943 x140",
-    "salary": "24000",
+    "salary": 24000,
     "website": "jacynthe.com",
     "img": "https://images.unsplash.com/photo-1536792414922-14b978901fcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
     "company": {
@@ -215,7 +215,7 @@ var users = [
       }
     },
     "phone": "(775)976-6794 x41206",
-    "salary": "25000",
+    "salary": 25000,
     "website": "conrad.com",
     "img": "https://images.unsplash.com/photo-1542909168-6296a31d7689?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
     "company": {
@@ -240,7 +240,7 @@ var users = [
       }
     },
     "phone": "024-648-3804",
-    "salary": "20000",
+    "salary": 20000,
     "website": "ambrose.net",
     "img": "https://images.unsplash.com/photo-1542909192-2f2241a99c9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
     "company": {

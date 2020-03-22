@@ -1,0 +1,22 @@
+.single-user {
+  padding: 15px 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  min-height: 100%;
+}
+
+.single-user img {
+  max-width: 180px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.single-user h4 {
+  font-size: 20px;
+  color: #33e5a8;
+}
+
+.single-user p {
+  margin-bottom: 5px;
+}

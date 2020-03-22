@@ -1,49 +1,41 @@
 import React, { useState } from 'react';
 
+import { Container, Row, Col } from 'reactstrap';
 import './Employee.css';
-import { Container, Row, Col, Button } from 'reactstrap';
-import { useEffect } from 'react';
+import fakeData from '../../fakeData';
+import SingleUser from '../SingleUser/SingleUser';
+import Cart from '../Cart/Cart';
 
-const Employee = () => {
+const Employee = (props) => {
 
-  const [employees, setEmployees] = useState([]);
+  const usersData = fakeData;
 
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(data => setEmployees(data))
-  }, []);
+  const [employees] = useState(usersData);
+  const [cart, setCart] = useState([]);
+
+  const paidClickHandler = (user) =>{
+    const newCart = [...cart, user];
+    setCart(newCart);
+    console.log(cart);
+  }
 
   return (
     <div className="employee-area">
       <Container>
         <Row>
-          <Col md={8}>
+          <Col md={9}>
             <Row>
-              {
-                console.log(employees)
-              }
               {
                 employees.map(
                   employee =>
-                    <Col md={4}>
-                      <div className="single-user">
-                        <h4>{employee.name}</h4>
-                        <p>{employee.email}</p>
-                        <p>{employee.phone}</p>
-                        <p>Address: {employee.address.street},{employee.address.suite},{employee.address.city}</p>
-                        <Button className="primary-btn mt-auto">Add Friend</Button>
-                      </div>
-                    </Col>
+                  <SingleUser employee={employee} paidClickHandler={paidClickHandler}></SingleUser>
                 )
               }
-
             </Row>
           </Col>
-          <Col md={4}>
-
+          <Col md={3}>
+              <Cart cart={cart}></Cart>
           </Col>
-
         </Row>
       </Container>
     </div>
